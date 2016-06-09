@@ -47,3 +47,5 @@ end
 
 gem "thin"
 gem "twitter"
+
+gem "sidekiq", "~> 4.1"
