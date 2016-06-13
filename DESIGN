@@ -64,7 +64,7 @@ Modelado Datos:
 			last_seen: la ultima vez que el usuario fue encontrado como "vivo" en la api de twitter (para detectar cancelados)
 			last_heartbeat: registro de la última actividad detectada del usuario.
 		Comando:
-			rails g model Profile username:string realname:string last_seen:datetime last_heartbeat
+			rails g model Profile username:string realname:string last_seen:datetime last_heartbeat:datetime
 	LeadershipProfile:
 		Campos:
 			username: nombre del usuario
