@@ -55,5 +55,6 @@ end
 
 gem "thin"
 gem "twitter"
+gem "paperclip"
 
 gem "sidekiq", "~> 4.1"
