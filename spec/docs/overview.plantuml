@@ -1,96 +1,109 @@
 @startuml
-	class Tweet {
-
-	}
+left to right direction
 
 	class Profile {
 
 	}
 
-	class TargetingProfile {
+	package facts {
 
-	}
-	
-	class InfluenceProfile {
+		class Tweet {
 
-	}
+		}
 
-	class ImpactProfile {
-
+		Tweet <-- Profile : belongs-to
 	}
 
-	class ActivityProfile {
+	package graph {
 
+		class TwitterLink {
+
+		}
+
+		class TwitterCluster {
+
+		}
+
+		class TwitterTouch {
+
+		}
+
+
+		TwitterLink --> Profile : first
+		TwitterLink --> Profile : second
+		TwitterTouch --> Profile : first
+		TwitterTouch --> Profile : second
+		TwitterCluster -- Profile : < belongs
 	}
 
-	class ProfileDataEntry {
+	package habits {
 
+		class KnownLocation {
+
+		}
+
+		class KnownClient {
+
+		}
+
+		Profile "1" *--> "*" KnownLocation
+		Profile "1" *--> "*" KnownClient
 	}
 
-	class TwitterLink {
+	package sentiment-analysis {
 
+		class Domain {
+
+		}
+
+		class DomainTerm {
+
+		}
+
+		class TermOccurrence {
+
+		}
+
+		Domain o--> DomainTerm
+		DomainTerm <-- TermOccurrence
+		TermOccurrence --> Profile
 	}
 
-	class KnownLocation {
+	package metrics {
 
-	}
+		class TargetingProfile {
 
-	class KnownClient {
+		}
+		
+		class InfluenceProfile {
 
-	}
+		}
 
-	class TermOccurrence {
+		class ImpactProfile {
 
-	}
-	
-	class TwitterCluster {
+		}
 
-	}
+		class ActivityProfile {
 
-	class TwitterTouch {
+		}
 
-	}
+		class ProfileDataEntry {
 
-	class Domain {
+		}
 
-	}
+		Profile "*" -- "*" ImpactProfile
+		ImpactProfile "*" -- "1" Domain
+		ImpactProfile *--> "*" ProfileDataEntry
 
-	class DomainTerm {
+		Profile "*" -- "*" InfluenceProfile
+		InfluenceProfile "*" -- "1" TwitterCluster
+		InfluenceProfile *--> "*" ProfileDataEntry
 
-	}
+		Profile "1" -- "1" TargetingProfile
+		TargetingProfile *--> "*" ProfileDataEntry
 
-	' twitter facts
-	Tweet <-- Profile : belongs-to
-
-	' user graph
-	TwitterLink --> Profile : first
-	TwitterLink --> Profile : second
-	TwitterTouch --> Profile : first
-	TwitterTouch --> Profile : second
-	TwitterCluster -- Profile : < belongs
-
-	' user stalk
-	Profile "1" *--> "*" KnownLocation
-	Profile "1" *--> "*" KnownClient
-
-	' basic sentiment analysis
-	Domain o--> DomainTerm
-	DomainTerm <-- TermOccurrence
-	TermOccurrence --> Profile
-
-	' metrics
-	Profile "*" -- "*" ImpactProfile
-	ImpactProfile "*" -- "1" Domain
-	ImpactProfile *--> "*" ProfileDataEntry
-
-	Profile "*" -- "*" InfluenceProfile
-	InfluenceProfile "*" -- "1" TwitterCluster
-	InfluenceProfile *--> "*" ProfileDataEntry
-
-	Profile "1" -- "1" TargetingProfile
-	TargetingProfile *--> "*" ProfileDataEntry
-
-	Profile "1" -- "1" ActivityProfile
-	ActivityProfile *--> "*" ProfileDataEntry  
+		Profile "1" -- "1" ActivityProfile
+		ActivityProfile *--> "*" ProfileDataEntry 
+	} 
 
 @enduml
