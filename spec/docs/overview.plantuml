@@ -46,8 +46,8 @@ left to right direction
 
 		}
 
-		Profile "1" *--> "*" KnownLocation
-		Profile "1" *--> "*" KnownClient
+		Profile "1" o--> "*" KnownLocation
+		Profile "1" o--> "*" KnownClient
 	}
 
 	package sentiment-analysis {

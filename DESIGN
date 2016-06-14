@@ -65,7 +65,7 @@ Modelado Datos:
 			last_heartbeat: registro de la última actividad detectada del usuario.
 		Comando:
 			rails g model Profile username:string realname:string last_seen:datetime last_heartbeat:datetime
-	LeadershipProfile:
+	ImpactProfile:
 		Campos:
 			username: nombre del usuario
 			reference_cluster: id del cluster de referencia para este perfil de usuario
