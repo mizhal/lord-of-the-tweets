@@ -1,51 +1,52 @@
+# Glosario y elementos de datos
 
-Terminos del Dominio:
-	Config
+## Terminos del Dominio:
+### Config
 		Configuración de la aplicación
-	Profile
+### Profile
 		Perfil de twitero.
-	VIProfile
+### VIProfile
 		Very importan profile: perfiles de tuiteros que deben ser seguidos porque son importantes para los objetivos de nuestro sistema.
-	LastHeartbeat
+### LastHeartbeat
 		Fecha y hora de la última actividad conocida
-	LastSeen 
+### LastSeen 
 		Ultima vez que fue visto un twitero
-	Tweet
+### Tweet
 		Fragmento de información / Estado de twitter
-	TwitterLink
+### TwitterLink
 		Relacion EXPLICITA (follower, following, bloqueos) entre dos twiteros, se anota como un arco dirigido, también aplican los conceptos de LastSeen y LastHearbeat. Se puede anotar con tipos (AMIGO, CONOCIDO, GROUPIE, ENTORNO, ENEMIGO)
-	TwitterNearness
+### TwitterNearness
 		Relación INDIRECTA entre dos twiteros, se calcula a través de los TwitterLinks y los TwitterTouchs 
-	TwitterTouch
+### TwitterTouch
 		Interacción en twitter (referencia, favorito, retweet)
-	FriendlyTouch
+### FriendlyTouch
 		Interacción entre dos tuiteros unidos por un TwitterLink
-	NearTouch
+### NearTouch
 		Interacción entre dos tuiteros con cierto grado de TwitterNearness
-	KnownLocation
+### KnownLocation
 		Información de geoposicionamiento de un twitero recabada de la API
-	KnownClient
+### KnownClient
 		Información sobre el software (implicitamente dispositivos también) que usa un tuitero recabada de la API
-	TermOcurrence
+### TermOcurrence
 		Informe de la aparición en los tweets de un tuitero. También trackea hashtags.
-	Domain
+### Domain
 		Conjunto de terminos, asociados a un nivel de relevancia que definen un dominio, es decir, que terminos tenemos que buscar si hablamos de un determinado tema y con que nivel de importancia.
-	TwitterCluster
+### TwitterCluster
 		Grupo de twiteros muy conectados y con cierta tasa de interacción.
-	Influence
+### Influence
 		Metrica de la actividad de un twitero que representa el impacto de sus TwitterTouchs sobre los otros tuiteros de su cluster.
-	ClusterLeader
+### ClusterLeader
 		El lider del cluster se determina tanto por las propiedades graficas del cluster (alta centralidad) como por la Influence
-	BelongsToCluster
+### BelongsToCluster
 		Relación de un tuitero con su cluster. Un twitero puede estar en varios clusters
-	ActivityProfile
+### ActivityProfile
 		Metricas de actividad del tuitero (horas a las que twitea, etc)
-	ImpactProfile
+### ImpactProfile
 		Metricas del liderazgo del twitero dentro de temáticas difusas (no clusters) como el diseño, política, etc.
-	TargetingProfile
+### TargetingProfile
 		Metricas de lo interesante que es un tuitero, de cara a seguir su actividad o descartar en un segundo plano.
-Modelado Dominio:
-Modelado Datos:
+
+## Modelado Datos:
 	Config:
 		Desc:
 			Contiene las configuraciones de la aplicacion.
