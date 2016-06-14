@@ -1,0 +1,66 @@
+@startuml
+	class Tweet {
+
+	}
+
+	class Profile {
+
+	}
+
+	class TargetingProfile {
+
+	}
+	
+	class InfluenceProfile {
+
+	}
+
+	class ImpactProfile {
+
+	}
+
+	class ActivityProfile {
+
+	}
+
+	class ProfileDataEntry {
+
+	}
+
+	class TwitterLink {
+
+	}
+
+	class KnownLocation {
+
+	}
+
+	class KnownClient {
+
+	}
+
+	class TermOccurrence {
+
+	}
+	
+	class TwitterCluster {
+
+	}
+
+	class TwitterTouch {
+
+	}
+
+	class Domain {
+
+	}
+
+	class DomainTerm {
+
+	}
+
+	Tweet <-- Profile : belongs-to
+	TwitterLink --> Profile : first
+	TwitterLink --> Profile : second
+
+@enduml
