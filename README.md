@@ -9,4 +9,5 @@ Digital viewpoint for twitter analysis.
 ![Domain Model](./spec/docs/overview.png)
 
 ## Glossary
-	(See)[./spec/docs/glossary.md]
+
+[See](./spec/docs/glossary.md)
