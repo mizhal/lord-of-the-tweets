@@ -3,8 +3,6 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -55,6 +53,11 @@ end
 
 gem "thin"
 gem "twitter"
-gem "paperclip"
+
+## Data Backend: graph + document oriented
+gem "neo4j"
+gem "mongoid"
+### [TODO] #7eef4dc0-3737-11e6-8d77-48d224987c9d eval convenience of using elastic for sentiment analysis package too
+## END: Data Backend
 
 gem "sidekiq", "~> 4.1"
