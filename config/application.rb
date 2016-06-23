@@ -5,6 +5,8 @@ require "rails/test_unit/railtie"
 require "action_mailer/railtie"
 require "active_model"
 
+require 'neo4j/railtie'
+
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
@@ -24,5 +26,22 @@ module LordOfTheTweets
     config.i18n.default_locale = :en
 
     config.autoload_paths += ["#{config.root}/lib"]
+
+    ### NEO4J CONNECTION
+    begin
+        _NEO4JCONF = YAML.load("#{config.root}/config/neo4j.yml")[Rails.env] 
+    rescue
+        Rails.logger.fatal "NEO4J configuration file not found"
+    end
+
+    config.neo4j.session_options = {
+        basic_auth: {
+            username: _NEO4JCONF["username"],
+            password: _NEO4JCONF["password"]
+        }
+    }
+    config.neo4j.session_type = _NEO4JCONF["session_type"]
+    config.neo4j.session_path = _NEO4JCONF["session_path"] || _NEO4JCONF["host"]
+    ### END: NEO4J CONNECTION
   end
 end
