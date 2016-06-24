@@ -1,48 +1,30 @@
 @startuml
 left to right direction
 
-	class Profile {
+	class Profile <<Document>> {
+
+	}
+
+	class Cluster <<Document>> {
 
 	}
 
 	package facts {
 
-		class Tweet {
+		class Tweet <<Document>> {
 
 		}
 
-		Tweet <-- Profile : belongs-to
-	}
-
-	package graph {
-
-		class TwitterLink {
-
-		}
-
-		class TwitterCluster {
-
-		}
-
-		class TwitterTouch {
-
-		}
-
-
-		TwitterLink --> Profile : first
-		TwitterLink --> Profile : second
-		TwitterTouch --> Profile : first
-		TwitterTouch --> Profile : second
-		TwitterCluster -- Profile : < belongs
+		Tweet --> Profile : belongs-to
 	}
 
 	package habits {
 
-		class KnownLocation {
+		class KnownLocation <<GeoDocument>> {
 
 		}
 
-		class KnownClient {
+		class KnownClient <<Document>> {
 
 		}
 
@@ -52,51 +34,51 @@ left to right direction
 
 	package sentiment-analysis {
 
-		class Domain {
+		class Domain <<Document>> {
 
 		}
 
-		class DomainTerm {
+		class DomainTerm <<DocumentPart>> {
 
 		}
 
-		class TermOccurrence {
+		class TermOccurrence <<?>> {
 
 		}
 
 		Domain o--> DomainTerm
 		DomainTerm <-- TermOccurrence
-		TermOccurrence "*" <-- "1" Profile
+		TermOccurrence "*" --> "1" Profile
 	}
 
 	package metrics {
 
-		class TargetingProfile {
+		class TargetingProfile <<Document>> {
 
 		}
 		
-		class InfluenceProfile {
+		class InfluenceProfile <<Document>> {
 
 		}
 
-		class ImpactProfile {
+		class ImpactProfile <<Document>> {
 
 		}
 
-		class ActivityProfile {
+		class ActivityProfile <<Document>> {
 
 		}
 
-		class ProfileDataEntry {
+		class ProfileDataEntry <<DocumentPart>> {
 
 		}
 
 		Profile "*" -- "*" ImpactProfile
-		ImpactProfile "*" -- "1" Domain
+		ImpactProfile "*" -- "*" Domain
 		ImpactProfile *--> "*" ProfileDataEntry
 
 		Profile "*" -- "*" InfluenceProfile
-		InfluenceProfile "*" -- "1" TwitterCluster
+		InfluenceProfile "*" -- "*" Cluster
 		InfluenceProfile *--> "*" ProfileDataEntry
 
 		Profile "1" -- "1" TargetingProfile
@@ -104,6 +86,35 @@ left to right direction
 
 		Profile "1" -- "1" ActivityProfile
 		ActivityProfile *--> "*" ProfileDataEntry 
-	} 
+	}
+
+	package graph {
+
+		class TwitterLink <<ActiveRel>> {
+
+		}
+
+		class TwitterCluster <<ActiveNode>> {
+
+		}
+
+		class TwitterTouch <<ActiveRel>> {
+
+		}
+
+		class TwitterProfileNode <<ActiveNode>> {
+
+		}
+
+
+		TwitterLink --> TwitterProfileNode : first
+		TwitterLink --> TwitterProfileNode : second
+		TwitterTouch --> TwitterProfileNode : first
+		TwitterTouch --> TwitterProfileNode : second
+		TwitterCluster -- TwitterProfileNode : < belongs
+
+		TwitterProfileNode -- Profile : represents >
+		TwitterCluster -- Cluster: represents >
+	}
 
 @enduml
