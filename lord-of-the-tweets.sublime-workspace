@@ -1,0 +1,186 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"_",
+				"_NEO4JCONF"
+			],
+			[
+				"each",
+				"each_with_index"
+			],
+			[
+				"cas",
+				"casillas_amenazadas"
+			],
+			[
+				"h",
+				"heuristico"
+			],
+			[
+				"cap",
+				"capistrano-rails"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/vagrant/workspace/lord-of-the-tweets/app/models/twitter_link.rb",
+		"/home/vagrant/workspace/lord-of-the-tweets/Gemfile",
+		"/home/vagrant/workspace/lord-of-the-tweets/app/models/twitter_profile_node.rb",
+		"/home/vagrant/workspace/lord-of-the-tweets/app/models/graph/twitter_profile_node.rb",
+		"/home/vagrant/workspace/lord-of-the-tweets/app/models/graph/twitter_link.rb",
+		"/home/vagrant/workspace/lord-of-the-tweets/app/models/graph/twitter_touch.rb",
+		"/home/vagrant/workspace/lord-of-the-tweets/app/models/graph/twitter_cluster.rb",
+		"/home/vagrant/workspace/lord-of-the-tweets/app/models/habits/known_location.rb",
+		"/home/vagrant/workspace/lord-of-the-tweets/config/application.rb",
+		"/home/vagrant/workspace/lord-of-the-tweets/spec/docs/overview.plantuml",
+		"/home/vagrant/workspace/lord-of-the-tweets/2",
+		"/home/vagrant/workspace/lord-of-the-tweets/spec/docs/2",
+		"/home/vagrant/workspace/lord-of-the-tweets/config/environments/test.rb",
+		"/home/vagrant/workspace/lord-of-the-tweets/config/environments/production.rb",
+		"/home/vagrant/workspace/lord-of-the-tweets/config/environments/development.rb",
+		"/home/vagrant/nqueens.rb",
+		"/home/vagrant/taller/hackerrank-challenges/nspies.rb",
+		"/home/vagrant/taller/nqueens.rb",
+		"/home/vagrant/workspace/lord-of-the-tweets/README.md",
+		"/home/vagrant/workspace/lord-of-the-tweets/spec/docs/objectives.md",
+		"/home/vagrant/workspace/lord-of-the-tweets/spec/docs/algorithms.md",
+		"/home/vagrant/workspace/lord-of-the-tweets/spec/docs/glossary.md",
+		"/home/vagrant/taller/hackerrank-challenges/2",
+		"/home/vagrant/taller/2",
+		"/home/vagrant/workspace/lord-of-the-tweets/config/twitter-api.yml",
+		"/home/vagrant/workspace/lord-of-the-tweets/config/environment.rb",
+		"/home/vagrant/2",
+		"/home/vagrant/workspace/lord-of-the-tweets/glossary.md",
+		"/home/vagrant/workspace/lord-of-the-tweets/1",
+		"/home/vagrant/workspace/1"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"puts",
+			"casillas_amenazadas",
+			"in",
+			"profile"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 219.0,
+	"status_bar_visible": true
+}
