@@ -1,0 +1,61 @@
+@startuml
+
+package "stores" {
+	[MongoDB]
+	[Neo4j]
+}
+
+package "adapters" {
+	[DocumentCatalog]
+	[GraphBackend]	
+}
+
+package "capture" {
+	[TwitterWatchdog]
+}
+
+package "workers" {
+	[Analyzers]	
+}
+
+package "ui" {	
+	[MonoliticViews]
+	[API]
+}
+
+cloud {
+	[Twitter]
+	TwitterAPI -- [Twitter]
+}
+
+' storage
+Mongoid -- [MongoDB]
+MongoConnect -- [MongoDB]
+neo4jgem -- [Neo4j]
+[Neo4j] --> MongoConnect
+
+' adapters
+[DocumentCatalog] --> Mongoid
+[GraphBackend] --> neo4jgem
+
+' exposed protocols
+TwitterRawProtocol -- [DocumentCatalog]
+TwitterProductsProtocol -- [DocumentCatalog]
+TwitterGraph -- [GraphBackend]
+
+' operational layer
+[TwitterWatchdog] --> TwitterRawProtocol
+[Analyzers] --> TwitterRawProtocol
+[Analyzers] --> TwitterProductsProtocol
+[Analyzers] --> TwitterGraph
+
+' user layer
+[MonoliticViews] --> TwitterProductsProtocol
+[API] --> TwitterProductsProtocol
+[MonoliticViews] --> TwitterGraph
+[API] --> TwitterGraph
+
+' external layer
+[TwitterWatchdog] --> TwitterAPI
+
+@enduml
