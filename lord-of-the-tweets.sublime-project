@@ -6,6 +6,9 @@
 		},
 		{
 			"path": "/home/vagrant/workspace/lot-documentcatalog"
+		},
+		{
+			"path": "/home/vagrant/workspace/lot-twitter_watchdog"
 		}
 	]
 }

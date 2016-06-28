@@ -22,6 +22,7 @@
 
 * Watchs changes on target profiles and updates information about known twitter links, profiles, locations, etc.
 * Stores the "raw data" (facts) obtained from the API.
+* [Gem repo](https://github.com/mizhal/lot-twitter-watchdog)
 
 ## Workers layer
 
