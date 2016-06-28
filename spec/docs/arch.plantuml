@@ -1,26 +1,26 @@
 @startuml
 
 package "stores" {
-	[MongoDB]
-	[Neo4j]
+	[MongoDB] <<database>>
+	[Neo4j] <<database>>
 }
 
 package "adapters" {
-	[DocumentCatalog]
-	[GraphBackend]	
+	[DocumentCatalog] <<gem>>
+	[GraphBackend]	<<gem>>
 }
 
 package "capture" {
-	[TwitterWatchdog]
+	[TwitterWatchdog] <<engine>>
 }
 
 package "workers" {
-	[Analyzers]	
+	[Analyzers]	<<engine>>
 }
 
 package "ui" {	
-	[MonoliticViews]
-	[API]
+	[MonoliticViews] <<engine>>
+	[API] <<engine>>
 }
 
 cloud {

@@ -3,6 +3,9 @@
 	[
 		{
 			"path": "/home/vagrant/workspace/lord-of-the-tweets"
+		},
+		{
+			"path": "/home/vagrant/workspace/lot-documentcatalog"
 		}
 	]
 }
