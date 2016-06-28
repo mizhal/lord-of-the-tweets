@@ -1,4 +1,4 @@
-feature: Clasificación y descripción de fuentes
+Feature: Clasificación y descripción de fuentes
 	Como usuario
 	Quiero ver los temas principales de los que trata cada perfil y
 	obtener los perfiles relevantes sobre un tema en un momento dado
