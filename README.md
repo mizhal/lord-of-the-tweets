@@ -9,8 +9,9 @@ Digital viewpoint for twitter analysis.
 ![Domain Model](./spec/docs/overview.png)
 
 ## Architecture
-[See](./spec/docs/arch.md)
 ![Component Model](./spec/docs/arch.png)
+
+[See](./spec/docs/arch.md)
 
 ## Glossary
 

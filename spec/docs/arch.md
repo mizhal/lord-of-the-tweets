@@ -1,5 +1,7 @@
 # Component list
 
+![Component Model](arch.png)
+
 ## Storage adapters layer
 
 ### DocumentCatalog
