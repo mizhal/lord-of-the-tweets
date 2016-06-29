@@ -19,3 +19,7 @@
 # Keys & passes
 /config/database.yml
 /config/twitter-api.yml
+
+# IDE
+*.sublime-project
+*.sublime-workspace

@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"D",
+				"DocumentCatalog"
+			],
+			[
+				"mong",
+				"mongoid_file"
+			],
+			[
 				"_",
 				"_NEO4JCONF"
 			],
@@ -27,6 +35,98 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/home/vagrant/workspace/lot-documentcatalog/lib/lot/document_catalog.rb",
+			"settings":
+			{
+				"buffer_size": 592,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/vagrant/workspace/lot-documentcatalog/lot-documentcatalog.gemspec",
+			"settings":
+			{
+				"buffer_size": 1472,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"file": "/home/vagrant/workspace/lot-documentcatalog/spec/smoke_spec.rb",
+			"file_size": 85,
+			"file_write_time": 1467140295000000,
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/vagrant/workspace/lot-documentcatalog/spec/spec_helper.rb",
+			"settings":
+			{
+				"buffer_size": 90,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/vagrant/workspace/lot-documentcatalog/spec/lot/document_catalog_spec.rb",
+			"settings":
+			{
+				"buffer_size": 667,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/vagrant/workspace/lot-documentcatalog/spec/lot/mongo.yml",
+			"settings":
+			{
+				"buffer_size": 106,
+				"line_ending": "Unix",
+				"name": "mongo.yml"
+			}
+		},
+		{
+			"file": "/home/vagrant/workspace/lot-twitter_watchdog/lot-twitter_watchdog.gemspec",
+			"settings":
+			{
+				"buffer_size": 1403,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 1818,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/vagrant/workspace/lot-twitter_watchdog/Gemfile",
+			"settings":
+			{
+				"buffer_size": 206,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 278,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "spec/docs/arch.md",
+			"settings":
+			{
+				"buffer_size": 1383,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -52,16 +152,46 @@
 	},
 	"file_history":
 	[
+		"/home/vagrant/workspace/lord-of-the-tweets/lord-of-the-tweets.sublime-project",
+		"/home/vagrant/workspace/lot-documentcatalog/Gemfile",
+		"/home/vagrant/workspace/lot-documentcatalog/lot-documentcatalog.gemspec",
+		"/home/vagrant/workspace/lot-documentcatalog/lib/lot/documentcatalog/version.rb",
+		"/home/vagrant/workspace/lot-documentcatalog/lib/lot/documentcatalog/twitter_raw_protocol/captured_profile.rb",
+		"/home/vagrant/workspace/lot-documentcatalog/lib/lot/documentcatalog/twitter_raw_protocol/captured_tweet.rb",
+		"/home/vagrant/workspace/lot-documentcatalog/lib/lot/document_catalog.rb",
+		"/home/vagrant/workspace/lot-documentcatalog/lib/lot/document_catalog/twitter_raw_protocol/twitter_raw_protocol.rb",
+		"/home/vagrant/workspace/lot-documentcatalog/spec/lot/documentcatalog_spec.rb",
+		"/home/vagrant/workspace/lot-documentcatalog/bin/console",
+		"/home/vagrant/workspace/lot-documentcatalog/lib/lot/document_catalog/twitter_raw_protocol/captured_tweet.rb",
+		"/home/vagrant/workspace/lot-documentcatalog/lib/lot/document_catalog/twitter_raw_protocol/captured_profile.rb",
+		"/home/vagrant/workspace/lot-documentcatalog/lib/lot/document_catalog/twitter_raw_protocol/twitter_link.rb",
+		"/home/vagrant/workspace/lot-documentcatalog/lib/lot/document_catalog/twitter_raw_protocol/twitter_touch.rb",
+		"/home/vagrant/workspace/lot-documentcatalog/lib/lot/document_catalog/version.rb",
+		"/home/vagrant/workspace/lord-of-the-tweets/app/models/graph/twitter_link.rb",
+		"/home/vagrant/workspace/lord-of-the-tweets/app/models/graph/twitter_profile_node.rb",
+		"/home/vagrant/workspace/lord-of-the-tweets/app/models/graph/twitter_cluster.rb",
+		"/home/vagrant/workspace/lot-documentcatalog/lib/lot/documentcatalog.rb",
+		"/home/vagrant/workspace/lord-of-the-tweets/spec/docs/arch.plantuml",
+		"/home/vagrant/workspace/lord-of-the-tweets/spec/docs/arch.md",
+		"/home/vagrant/workspace/lord-of-the-tweets/README.md",
+		"/home/vagrant/workspace/lot-documentcatalog/lib/lot/documentcatalog/captured_tweet.rb",
+		"/home/vagrant/workspace/lot-documentcatalog/lib/lot/documentcatalog/captured_profile.rb",
+		"/home/vagrant/workspace/lord-of-the-tweets/spec/docs/overview.plantuml",
+		"/home/vagrant/.bash_profile",
+		"/home/vagrant/workspace/lord-of-the-tweets/spec/feats/003-descubrimiento.gherkin",
+		"/home/vagrant/workspace/lord-of-the-tweets/spec/feats/004-control-de-infoxicacion.gherkin",
+		"/home/vagrant/workspace/lord-of-the-tweets/spec/feats/005-clasificacion-y-descripcion.gherkin",
+		"/home/vagrant/workspace/lord-of-the-tweets/spec/feats/006-notificacion-intereses.gherkin",
+		"/home/vagrant/workspace/lord-of-the-tweets/spec/feats/001-cercania.gherkin",
+		"/home/vagrant/workspace/lord-of-the-tweets/spec/feats/002-agrupacion.gherkin",
+		"/home/vagrant/workspace/lord-of-the-tweets/spec/docs/objectives.md",
+		"/home/vagrant/workspace/lord-of-the-tweets/spec/feats/cercania.gherkin",
 		"/home/vagrant/workspace/lord-of-the-tweets/app/models/twitter_link.rb",
 		"/home/vagrant/workspace/lord-of-the-tweets/Gemfile",
 		"/home/vagrant/workspace/lord-of-the-tweets/app/models/twitter_profile_node.rb",
-		"/home/vagrant/workspace/lord-of-the-tweets/app/models/graph/twitter_profile_node.rb",
-		"/home/vagrant/workspace/lord-of-the-tweets/app/models/graph/twitter_link.rb",
 		"/home/vagrant/workspace/lord-of-the-tweets/app/models/graph/twitter_touch.rb",
-		"/home/vagrant/workspace/lord-of-the-tweets/app/models/graph/twitter_cluster.rb",
 		"/home/vagrant/workspace/lord-of-the-tweets/app/models/habits/known_location.rb",
 		"/home/vagrant/workspace/lord-of-the-tweets/config/application.rb",
-		"/home/vagrant/workspace/lord-of-the-tweets/spec/docs/overview.plantuml",
 		"/home/vagrant/workspace/lord-of-the-tweets/2",
 		"/home/vagrant/workspace/lord-of-the-tweets/spec/docs/2",
 		"/home/vagrant/workspace/lord-of-the-tweets/config/environments/test.rb",
@@ -70,8 +200,6 @@
 		"/home/vagrant/nqueens.rb",
 		"/home/vagrant/taller/hackerrank-challenges/nspies.rb",
 		"/home/vagrant/taller/nqueens.rb",
-		"/home/vagrant/workspace/lord-of-the-tweets/README.md",
-		"/home/vagrant/workspace/lord-of-the-tweets/spec/docs/objectives.md",
 		"/home/vagrant/workspace/lord-of-the-tweets/spec/docs/algorithms.md",
 		"/home/vagrant/workspace/lord-of-the-tweets/spec/docs/glossary.md",
 		"/home/vagrant/taller/hackerrank-challenges/2",
@@ -99,6 +227,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"		",
 			"puts",
 			"casillas_amenazadas",
 			"in",
@@ -120,8 +249,307 @@
 	"groups":
 	[
 		{
+			"selected": 8,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/home/vagrant/workspace/lot-documentcatalog/lib/lot/document_catalog.rb",
+					"settings":
+					{
+						"buffer_size": 592,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								250,
+								250
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 69.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/vagrant/workspace/lot-documentcatalog/lot-documentcatalog.gemspec",
+					"settings":
+					{
+						"buffer_size": 1472,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								231,
+								231
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/vagrant/workspace/lot-documentcatalog/spec/smoke_spec.rb",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/vagrant/workspace/lot-documentcatalog/spec/spec_helper.rb",
+					"settings":
+					{
+						"buffer_size": 90,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								81,
+								81
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/vagrant/workspace/lot-documentcatalog/spec/lot/document_catalog_spec.rb",
+					"settings":
+					{
+						"buffer_size": 667,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								442,
+								442
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 207.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/vagrant/workspace/lot-documentcatalog/spec/lot/mongo.yml",
+					"settings":
+					{
+						"buffer_size": 106,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								106,
+								106
+							]
+						],
+						"settings":
+						{
+							"auto_name": "mongo.yml",
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/vagrant/workspace/lot-twitter_watchdog/lot-twitter_watchdog.gemspec",
+					"settings":
+					{
+						"buffer_size": 1403,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1238,
+								1238
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 483.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "Gemfile",
+					"settings":
+					{
+						"buffer_size": 1818,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1584,
+								1584
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1104.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/home/vagrant/workspace/lot-twitter_watchdog/Gemfile",
+					"settings":
+					{
+						"buffer_size": 206,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								205,
+								205
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "README.md",
+					"settings":
+					{
+						"buffer_size": 278,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								95,
+								95
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 69.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "spec/docs/arch.md",
+					"settings":
+					{
+						"buffer_size": 1383,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								757,
+								757
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
