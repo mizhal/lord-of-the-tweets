@@ -4,6 +4,46 @@
 		"selected_items":
 		[
 			[
+				"persi",
+				"persistable_methods"
+			],
+			[
+				"collection",
+				"collection_methods"
+			],
+			[
+				"scree",
+				"screen_name"
+			],
+			[
+				"T",
+				"TwitterLink"
+			],
+			[
+				"Twitt",
+				"TwitterLink"
+			],
+			[
+				"Twit",
+				"TwitterRawProtocol"
+			],
+			[
+				"twi",
+				"twitter_watchdog"
+			],
+			[
+				"sleep",
+				"sleep_for_api_limit"
+			],
+			[
+				"en",
+				"environment"
+			],
+			[
+				"api",
+				"api_client"
+			],
+			[
 				"D",
 				"DocumentCatalog"
 			],
@@ -36,94 +76,93 @@
 	"buffers":
 	[
 		{
-			"file": "/home/vagrant/workspace/lot-documentcatalog/lib/lot/document_catalog.rb",
+			"file": "/home/vagrant/workspace/lot-twitter_watchdog/lib/lot/twitter_watchdog/twitter_graph_generator.rb",
 			"settings":
 			{
-				"buffer_size": 592,
+				"buffer_size": 1953,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/vagrant/workspace/lot-documentcatalog/lot-documentcatalog.gemspec",
+			"file": "/home/vagrant/workspace/lot-twitter_watchdog/spec/mocks/twitter_raw_protocol_mock.rb",
 			"settings":
 			{
-				"buffer_size": 1472,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "",
-			"file": "/home/vagrant/workspace/lot-documentcatalog/spec/smoke_spec.rb",
-			"file_size": 85,
-			"file_write_time": 1467140295000000,
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/vagrant/workspace/lot-documentcatalog/spec/spec_helper.rb",
-			"settings":
-			{
-				"buffer_size": 90,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/vagrant/workspace/lot-documentcatalog/spec/lot/document_catalog_spec.rb",
-			"settings":
-			{
-				"buffer_size": 667,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/vagrant/workspace/lot-documentcatalog/spec/lot/mongo.yml",
-			"settings":
-			{
-				"buffer_size": 106,
+				"buffer_size": 1427,
 				"line_ending": "Unix",
-				"name": "mongo.yml"
+				"name": "twitter_raw_protocol_mock.rb"
 			}
 		},
 		{
-			"file": "/home/vagrant/workspace/lot-twitter_watchdog/lot-twitter_watchdog.gemspec",
+			"file": "/home/vagrant/workspace/lot-twitter_watchdog/spec/lot/twitter_touch_graph_spec.rb",
 			"settings":
 			{
-				"buffer_size": 1403,
+				"buffer_size": 1678,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "Gemfile",
+			"file": "/home/vagrant/workspace/lot-twitter_watchdog/spec/lot/twitter-api.yml.example",
 			"settings":
 			{
-				"buffer_size": 1818,
+				"buffer_size": 211,
+				"line_ending": "Unix",
+				"name": "twitter-api.yml"
+			}
+		},
+		{
+			"file": "/home/vagrant/workspace/lot-twitter_watchdog/spec/lot/twitter_watchdog_spec.rb",
+			"settings":
+			{
+				"buffer_size": 153,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/vagrant/workspace/lot-twitter_watchdog/Gemfile",
+			"file": "/home/vagrant/workspace/lot-twitter_watchdog/lib/lot/twitter_watchdog/twitter_control.rb",
 			"settings":
 			{
-				"buffer_size": 206,
+				"buffer_size": 910,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "README.md",
+			"file": "/home/vagrant/workspace/lot-twitter_watchdog/lib/lot/twitter_watchdog/watchdog.rb",
 			"settings":
 			{
-				"buffer_size": 278,
+				"buffer_size": 370,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "spec/docs/arch.md",
+			"file": "/home/vagrant/workspace/lot-twitter_watchdog/lib/lot/twitter_watchdog/twitter_touch_graph.rb",
 			"settings":
 			{
-				"buffer_size": 1383,
+				"buffer_size": 234,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/vagrant/workspace/lot-documentcatalog/spec/lot/twitter_raw_protocol_spec.rb",
+			"settings":
+			{
+				"buffer_size": 1695,
+				"line_ending": "Unix",
+				"name": "twitter_raw_protocol.rb"
+			}
+		},
+		{
+			"file": "/home/vagrant/workspace/lot-documentcatalog/lib/lot/document_catalog/twitter_raw_protocol/twitter_raw_protocol.rb",
+			"settings":
+			{
+				"buffer_size": 537,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/vagrant/workspace/lot-documentcatalog/lib/lot/document_catalog/twitter_raw_protocol/twitter_link.rb",
+			"settings":
+			{
+				"buffer_size": 377,
 				"line_ending": "Unix"
 			}
 		}
@@ -152,18 +191,42 @@
 	},
 	"file_history":
 	[
+		"/home/vagrant/workspace/lot-twitter_watchdog/spec/lot/twitter-api.yml",
+		"/home/vagrant/workspace/lot-twitter_watchdog/.gitignore",
+		"/home/vagrant/workspace/lot-documentcatalog/spec/lot/document_catalog_spec.rb",
+		"/home/vagrant/workspace/lot-twitter_watchdog/lib/lot/twitter_watchdog/i_watchdog_task.rb",
+		"/home/vagrant/workspace/lot-twitter_watchdog/lib/lot/twitter_watchdog.rb",
+		"/home/vagrant/workspace/lot-documentcatalog/lib/lot/document_catalog/connection.rb",
+		"/home/vagrant/workspace/lot-twitter_watchdog/lib/lot/twitter_watchdog/watchdog.rb",
+		"/home/vagrant/workspace/lot-twitter_watchdog/lib/lot/twitter_watchdog/twitter_touch_graph.rb",
+		"/home/vagrant/workspace/lot-documentcatalog/lib/lot/document_catalog.rb",
+		"/home/vagrant/workspace/lot-documentcatalog/lib/lot/document_catalog/twitter_raw_protocol/facade.rb",
+		"/home/vagrant/workspace/lot-documentcatalog/lib/lot/document_catalog/twitter_raw_protocol/twitter_raw_protocol.rb",
+		"/home/vagrant/workspace/lot-documentcatalog/lib/lot/document_catalog/twitter_raw_protocol/captured_profile.rb",
+		"/home/vagrant/workspace/lot-documentcatalog/lib/lot/document_catalog/twitter_raw_protocol/twitter_target.rb",
+		"/home/vagrant/workspace/lot-documentcatalog/lib/lot/document_catalog/twitter_raw_protocol/captured_tweet.rb",
+		"/home/vagrant/workspace/lot-documentcatalog/spec/mongo.yml",
+		"/home/vagrant/workspace/lot-twitter_watchdog/spec/lot/twitter_touch_graph_spec.rb",
+		"/home/vagrant/workspace/lot-documentcatalog/lib/lot/document_catalog/facade.rb",
+		"/home/vagrant/workspace/lot-documentcatalog/lot-documentcatalog.gemspec",
+		"/home/vagrant/workspace/lot-documentcatalog/spec/smoke_spec.rb",
+		"/home/vagrant/workspace/lot-documentcatalog/spec/spec_helper.rb",
+		"/home/vagrant/workspace/lot-documentcatalog/spec/lot/mongo.yml",
+		"/home/vagrant/workspace/lot-twitter_watchdog/lot-twitter_watchdog.gemspec",
+		"/home/vagrant/workspace/lord-of-the-tweets/Gemfile",
+		"/home/vagrant/workspace/lot-twitter_watchdog/Gemfile",
+		"/home/vagrant/workspace/lord-of-the-tweets/README.md",
+		"/home/vagrant/workspace/lord-of-the-tweets/spec/docs/arch.md",
+		"/home/vagrant/workspace/lord-of-the-tweets/.gitignore",
+		"/home/vagrant/workspace/lot-twitter_watchdog/lib/lot/twitter_watchdog/twitter_control.rb",
+		"/home/vagrant/workspace/lot-twitter_watchdog/lib/lot/twitter_watchdog/twitter_graph_generator.rb",
 		"/home/vagrant/workspace/lord-of-the-tweets/lord-of-the-tweets.sublime-project",
 		"/home/vagrant/workspace/lot-documentcatalog/Gemfile",
-		"/home/vagrant/workspace/lot-documentcatalog/lot-documentcatalog.gemspec",
 		"/home/vagrant/workspace/lot-documentcatalog/lib/lot/documentcatalog/version.rb",
 		"/home/vagrant/workspace/lot-documentcatalog/lib/lot/documentcatalog/twitter_raw_protocol/captured_profile.rb",
 		"/home/vagrant/workspace/lot-documentcatalog/lib/lot/documentcatalog/twitter_raw_protocol/captured_tweet.rb",
-		"/home/vagrant/workspace/lot-documentcatalog/lib/lot/document_catalog.rb",
-		"/home/vagrant/workspace/lot-documentcatalog/lib/lot/document_catalog/twitter_raw_protocol/twitter_raw_protocol.rb",
 		"/home/vagrant/workspace/lot-documentcatalog/spec/lot/documentcatalog_spec.rb",
 		"/home/vagrant/workspace/lot-documentcatalog/bin/console",
-		"/home/vagrant/workspace/lot-documentcatalog/lib/lot/document_catalog/twitter_raw_protocol/captured_tweet.rb",
-		"/home/vagrant/workspace/lot-documentcatalog/lib/lot/document_catalog/twitter_raw_protocol/captured_profile.rb",
 		"/home/vagrant/workspace/lot-documentcatalog/lib/lot/document_catalog/twitter_raw_protocol/twitter_link.rb",
 		"/home/vagrant/workspace/lot-documentcatalog/lib/lot/document_catalog/twitter_raw_protocol/twitter_touch.rb",
 		"/home/vagrant/workspace/lot-documentcatalog/lib/lot/document_catalog/version.rb",
@@ -172,8 +235,6 @@
 		"/home/vagrant/workspace/lord-of-the-tweets/app/models/graph/twitter_cluster.rb",
 		"/home/vagrant/workspace/lot-documentcatalog/lib/lot/documentcatalog.rb",
 		"/home/vagrant/workspace/lord-of-the-tweets/spec/docs/arch.plantuml",
-		"/home/vagrant/workspace/lord-of-the-tweets/spec/docs/arch.md",
-		"/home/vagrant/workspace/lord-of-the-tweets/README.md",
 		"/home/vagrant/workspace/lot-documentcatalog/lib/lot/documentcatalog/captured_tweet.rb",
 		"/home/vagrant/workspace/lot-documentcatalog/lib/lot/documentcatalog/captured_profile.rb",
 		"/home/vagrant/workspace/lord-of-the-tweets/spec/docs/overview.plantuml",
@@ -187,7 +248,6 @@
 		"/home/vagrant/workspace/lord-of-the-tweets/spec/docs/objectives.md",
 		"/home/vagrant/workspace/lord-of-the-tweets/spec/feats/cercania.gherkin",
 		"/home/vagrant/workspace/lord-of-the-tweets/app/models/twitter_link.rb",
-		"/home/vagrant/workspace/lord-of-the-tweets/Gemfile",
 		"/home/vagrant/workspace/lord-of-the-tweets/app/models/twitter_profile_node.rb",
 		"/home/vagrant/workspace/lord-of-the-tweets/app/models/graph/twitter_touch.rb",
 		"/home/vagrant/workspace/lord-of-the-tweets/app/models/habits/known_location.rb",
@@ -249,27 +309,56 @@
 	"groups":
 	[
 		{
-			"selected": 8,
+			"selected": 9,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/home/vagrant/workspace/lot-documentcatalog/lib/lot/document_catalog.rb",
+					"file": "/home/vagrant/workspace/lot-twitter_watchdog/lib/lot/twitter_watchdog/twitter_graph_generator.rb",
 					"settings":
 					{
-						"buffer_size": 592,
+						"buffer_size": 1953,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								250,
-								250
+								1859,
+								1859
 							]
 						],
 						"settings":
 						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/vagrant/workspace/lot-twitter_watchdog/spec/mocks/twitter_raw_protocol_mock.rb",
+					"settings":
+					{
+						"buffer_size": 1427,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								475,
+								475
+							]
+						],
+						"settings":
+						{
+							"auto_name": "twitter_raw_protocol_mock.rb",
 							"syntax": "Packages/Ruby/Ruby.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -281,99 +370,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "/home/vagrant/workspace/lot-documentcatalog/lot-documentcatalog.gemspec",
-					"settings":
-					{
-						"buffer_size": 1472,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								231,
-								231
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
 					"buffer": 2,
-					"file": "/home/vagrant/workspace/lot-documentcatalog/spec/smoke_spec.rb",
+					"file": "/home/vagrant/workspace/lot-twitter_watchdog/spec/lot/twitter_touch_graph_spec.rb",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 1678,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/home/vagrant/workspace/lot-documentcatalog/spec/spec_helper.rb",
-					"settings":
-					{
-						"buffer_size": 90,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								81,
-								81
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/home/vagrant/workspace/lot-documentcatalog/spec/lot/document_catalog_spec.rb",
-					"settings":
-					{
-						"buffer_size": 667,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								442,
-								442
+								1030,
+								1030
 							]
 						],
 						"settings":
@@ -389,25 +398,26 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "/home/vagrant/workspace/lot-documentcatalog/spec/lot/mongo.yml",
+					"buffer": 3,
+					"file": "/home/vagrant/workspace/lot-twitter_watchdog/spec/lot/twitter-api.yml.example",
 					"settings":
 					{
-						"buffer_size": 106,
+						"buffer_size": 211,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								106,
-								106
+								13,
+								13
 							]
 						],
 						"settings":
 						{
-							"auto_name": "mongo.yml",
+							"auto_name": "twitter-api.yml",
 							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -417,75 +427,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "/home/vagrant/workspace/lot-twitter_watchdog/lot-twitter_watchdog.gemspec",
+					"buffer": 4,
+					"file": "/home/vagrant/workspace/lot-twitter_watchdog/spec/lot/twitter_watchdog_spec.rb",
 					"settings":
 					{
-						"buffer_size": 1403,
+						"buffer_size": 153,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1238,
-								1238
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 483.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "Gemfile",
-					"settings":
-					{
-						"buffer_size": 1818,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1584,
-								1584
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1104.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "/home/vagrant/workspace/lot-twitter_watchdog/Gemfile",
-					"settings":
-					{
-						"buffer_size": 206,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								205,
-								205
+								148,
+								148
 							]
 						],
 						"settings":
@@ -499,53 +453,176 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "README.md",
+					"buffer": 5,
+					"file": "/home/vagrant/workspace/lot-twitter_watchdog/lib/lot/twitter_watchdog/twitter_control.rb",
 					"settings":
 					{
-						"buffer_size": 278,
+						"buffer_size": 910,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								95,
-								95
+								744,
+								744
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 69.0,
+						"translation.y": 207.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 10,
-					"file": "spec/docs/arch.md",
+					"buffer": 6,
+					"file": "/home/vagrant/workspace/lot-twitter_watchdog/lib/lot/twitter_watchdog/watchdog.rb",
 					"settings":
 					{
-						"buffer_size": 1383,
+						"buffer_size": 370,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								757,
-								757
+								308,
+								308
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 345.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/home/vagrant/workspace/lot-twitter_watchdog/lib/lot/twitter_watchdog/twitter_touch_graph.rb",
+					"settings":
+					{
+						"buffer_size": 234,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								36,
+								36
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/home/vagrant/workspace/lot-documentcatalog/spec/lot/twitter_raw_protocol_spec.rb",
+					"settings":
+					{
+						"buffer_size": 1695,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								507,
+								507
+							]
+						],
+						"settings":
+						{
+							"auto_name": "twitter_raw_protocol.rb",
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 138.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/home/vagrant/workspace/lot-documentcatalog/lib/lot/document_catalog/twitter_raw_protocol/twitter_raw_protocol.rb",
+					"settings":
+					{
+						"buffer_size": 537,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								290,
+								290
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 10,
+					"file": "/home/vagrant/workspace/lot-documentcatalog/lib/lot/document_catalog/twitter_raw_protocol/twitter_link.rb",
+					"settings":
+					{
+						"buffer_size": 377,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								180,
+								180
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 69.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -570,6 +647,12 @@
 				0,
 				1,
 				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
 			]
 		],
 		"cols":
@@ -580,6 +663,7 @@
 		"rows":
 		[
 			0.0,
+			0.614583333333,
 			1.0
 		]
 	},
@@ -605,10 +689,10 @@
 		],
 		"width": 0.0
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 219.0,
+	"side_bar_width": 208.0,
 	"status_bar_visible": true
 }
