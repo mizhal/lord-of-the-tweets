@@ -8,7 +8,7 @@
 
 * Defines the common structure of NoSQL documents for all operative components (analyzers, capturers, web-ui, api).
 * Manages MongoDB connection, configuration and operations, no other component must interact with the database.
-
+* Splits big documents when Mongo limits arise and joins them once requested, this must not change behaviour of upper layers.
 * [Gem repo](https://github.com/mizhal/lot-document-catalog)
 
 ### GraphBackend
